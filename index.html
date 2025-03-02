@@ -40,10 +40,10 @@
                     <div class="bg-white rounded-3xl w-14 h-12 px-4 py-3"><img class="w-auto" src="assets/checkbox.png" alt=""></div>
                     <div>
                         <p class="text-base font-medium" >Task Assigned</p>
-                        <h1 id="task" class="text-lg font-extrabold" >05</h1>
+                        <h1 id="task" class="text-lg font-extrabold" >06</h1>
                     </div> 
                 </div>
-                <div class="flex bg-[#6C7FFA] rounded-lg px-10 py-4 h-24 gap-4">
+                <div id="Next-page" class="flex bg-[#6C7FFA] rounded-lg px-10 py-4 h-24 gap-4">
                     <div><img class="w-14 h-16 " src="assets/board.png" alt=""></div>
                     <p  class="text-base font-medium text-fuchsia-50">Discover Something <br>  New Today!</p>
                 </div>
@@ -65,7 +65,7 @@
                             <p class="text-xs">Deadline</p>
                              <p class="date-in text-sm"></p>
                         </div>
-                        <button id="Completed" onclick="disableButton()" class=" disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                        <button  onclick="disableButton()" class="Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                     </div>
                 </div>
 
@@ -73,14 +73,14 @@
                 <!-- second box -->
                 <div class="bg-[#d5ddee] w-72 h-64 px-6 py-6 mt-10 rounded-xl " >
                     <div class="bg-white px-3 pt-1 rounded-md h-8 w-24" ><p>CloudSync</p></div>
-                    <h1 class="text-lg font-semibold my-2 ">Add Dark Mode </h1>
+                    <h1 id="second-box" class="text-lg font-semibold my-2 ">Add Dark Mode </h1>
                     <div class="bg-white px-3 pt-3 rounded-md h-16 w-52 mb-6" ><p class="text-xs">Store the user's preference in localStorage, update CSS </p></div>
                         <div class="flex gap-4" >
                             <div>
                                 <p class="text-xs">Deadline</p>
                                  <p  class="date-in text-sm"></p>
                             </div>
-                            <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                            <button  onclick="disableButton()" class=" Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                         </div>
                     </div>
 
@@ -88,14 +88,14 @@
                     <!-- third box -->
                 <div class="bg-[#d5ddee] w-72 h-64 px-6 py-6 mt-10 rounded-xl " >
                     <div class="bg-white px-3 pt-1 rounded-md h-8 w-24" ><p>SwiftPay</p></div>
-                    <h1 class="text-lg font-semibold my-2 ">Optimize  Home page  </h1>
+                    <h1 id="third-box" class="  text-lg font-semibold my-2 ">Optimize  Home page  </h1>
                     <div class="bg-white px-3 pt-3 rounded-md h-16 w-52 mb-6" ><p class="text-xs">Debug using Chrome DevTools, check for overlapping  </p></div>
                         <div class="flex gap-4" >
                             <div>
                                 <p class="text-xs">Deadline</p>
                                  <p  class="date-in text-sm"></p>
                             </div>
-                            <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                            <button  onclick="disableButton()" class=" Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                         </div>
                     </div>
 
@@ -104,14 +104,14 @@
                     <!-- Fourth box -->
                 <div class="bg-[#d5ddee] w-72 h-64 px-6 py-6 mt-6 rounded-xl " >
                     <div class="bg-white px-3 pt-1 rounded-md h-8 w-24" ><p>Meta</p></div>
-                    <h1 class="text-lg font-semibold my-2 ">Add new emoji 🤲 </h1>
+                    <h1 class=" fourth-box text-lg font-semibold my-2 ">Add new emoji 🤲 </h1>
                     <div class="bg-white px-3 pt-3 rounded-md h-16 w-52 mb-6" ><p class="text-xs">Debug using Chrome DevTools, check for overlapping elements</p></div>
                         <div class="flex gap-4" >
                             <div>
                                 <p class="text-xs">Deadline</p>
                                  <p class="date-in text-sm"></p>
                             </div>
-                            <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                            <button  onclick="disableButton()" class=" Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                         </div>
                     </div>
     
@@ -119,14 +119,14 @@
                     <!-- Fifth box -->
                     <div class="bg-[#d5ddee] w-72 h-64 px-6 py-6 mt-6 rounded-xl " >
                         <div class="bg-white px-3 pt-1 rounded-md h-8 w-24" ><p class="text-xs" >Google LLC</p></div>
-                        <h1 class="text-lg font-semibold my-2 ">Integrate OpenAI API  </h1>
+                        <h1 class=" fifth-box text-lg font-semibold my-2 ">Integrate OpenAI API  </h1>
                         <div class="bg-white px-3 pt-3 rounded-md h-16 w-52 mb-6" ><p class="text-xs">Debug using Chrome DevTools, check for overlapping elements</p></div>
                             <div class="flex gap-4" >
                                 <div>
                                     <p class="text-xs">Deadline</p>
                                      <p  class="date-in text-sm"></p>
                                 </div>
-                                <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                                <button  onclick="disableButton()" class=" Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                             </div>
                         </div>
     
@@ -134,14 +134,14 @@
                         <!-- sixth box -->
                     <div class="bg-[#d5ddee] w-72 h-64 px-6 py-6 mt-6 rounded-xl " >
                         <div class="bg-white px-3 pt-1 rounded-md h-8 w-24" ><p>Glassdoars</p></div>
-                        <h1 class="text-lg font-semibold my-2 ">Improve Job searching  </h1>
+                        <h1 class=" sixth-box text-lg font-semibold my-2 ">Improve Job searching  </h1>
                         <div class="bg-white px-3 pt-3 rounded-md h-16 w-52 mb-6" ><p class="text-xs">Debug using Chrome DevTools, check for overlapping elements</p></div>
                             <div class="flex gap-4" >
                                 <div>
                                     <p class="text-xs">Deadline</p>
                                      <p  class="date-in text-sm "></p>
                                 </div>
-                                <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
+                                <button  onclick="disableButton()" class=" Completed disabled:bg-gray-400 bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 ">Completed</button>
                             </div>
                         </div>
 
@@ -157,7 +157,7 @@
                 <img src="assets/activity.png" alt="">  
                 <h1 class="text-lg text-black font-semibold" >Activity Log</h1>
             </div>
-            <button class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 mt-4 text-xs ">Clear History</button>
+            <button id="clearHistory" class="bg-[#3752FD] rounded-lg px-4 text-white h-10 w-28 mt-4 text-xs ">Clear History</button>
         <div id="transection-History"></div>
         
         </section>
@@ -173,6 +173,10 @@
    
     <script src="script/style.js"></script>
     <script src="script/history.js"></script>
+    
+    <script src="script/abc.js"></script>
+    
+ 
 
 
 

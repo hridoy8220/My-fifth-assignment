@@ -20,3 +20,11 @@ for(let i=0; i<Datee.length;i++){
     
  }
 
+
+ document.getElementById("Next-page").addEventListener("click",function(event){
+            
+    console.log("jjjjj")
+       
+            window.location.href="./main.html"
+
+})
