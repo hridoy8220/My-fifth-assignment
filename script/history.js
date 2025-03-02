@@ -6,8 +6,40 @@ document.querySelectorAll('.Completed').forEach((button, index) => {
         const content = document.getElementById("transection-History");
 
         
-        const boxId = index === 0 ? "first-box" : "second-box" ;
+        // const boxId = index === 0 ? "first-box" : "second-box" ;
+
+
+         let boxId;
+         if(index===0){
+            boxId="first-box";
+         }
+
+         
+         else if( index===1 ){
+            boxId="second-box";
+         }
+
+
+         else if( index===2 ){
+            boxId="third-box";
+         }
+
+
+         else if( index===3 ){
+            boxId="fourth-box";
+         }
+
+
+         else if( index===4 ){
+            boxId="fifth-box";
+         }
+         else{
+            boxId="sixth-box"
+         }
+
         const taskBox = document.getElementById(boxId).innerText;
+        
+
         const currentTime = new Date().toLocaleTimeString(); 
 
         const p = document.createElement("p");
